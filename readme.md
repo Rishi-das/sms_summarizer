@@ -12,34 +12,27 @@
 3. Install the required dependencies:
    ```bash
    pip install streamlit torch sentence-transformers pandas scikit-learn joblib
-Run the Streamlit app:
+   ```
 
-bash
-Copy code
-streamlit run app.py
-After running, Streamlit will display a message like:
+4. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
 
-nginx
-Copy code
-Open this link in your browser to launch the Smart SMS Insights Dashboard.
+5. When the app starts, it will automatically open in your default web browser.  
+   If you have deployed the app online (for example, on Streamlit Cloud), simply open your deployed link to access the dashboard.
 
-How to Use
-Select a theme (Light or Dark) from the sidebar.
+---
 
-Choose an input mode:
+## How to Use
 
-Upload CSV File: Upload a CSV containing a column named "Message" or similar.
-
-Write / Paste Messages: Enter one message per line in the format Sender: Message.
-
-Click Analyze Messages to process and summarize your data.
-
-The dashboard will display:
-
-A category distribution chart.
-
-Summaries for each sender or message cluster.
-
-A detailed message table.
-
-Use the Download Categorized Messages button to export the analyzed data as a CSV file.
+1. Select a theme (Light or Dark) from the sidebar.  
+2. Choose an input mode:
+   - **Upload CSV File:** Upload a CSV containing a column named "Message" or similar.  
+   - **Write / Paste Messages:** Enter one message per line in the format `Sender: Message`.  
+3. Click **Analyze Messages** to process and summarize your data.  
+4. The dashboard will display:
+   - A category distribution chart.  
+   - Summaries for each sender or message cluster.  
+   - A detailed message table.  
+5. Use the **Download Categorized Messages** button to export the analyzed data as a CSV file.
