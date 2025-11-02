@@ -21,7 +21,6 @@ After running, Streamlit will display a message like:
 
 nginx
 Copy code
-Local URL: http://localhost:8501
 Open this link in your browser to launch the Smart SMS Insights Dashboard.
 
 How to Use
